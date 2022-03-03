@@ -1,8 +1,8 @@
 # JabberwockyInterpreter
 A java implementation of a Jabberwocky language interpreter. This program accepts a command-line argument denoting the name of a .txt file containing a JABBERWOCK program.
-Author: Dakota Kallas
-
-The rules of the Jabberwocky language are detailed below:
+_Author: Dakota Kallas
+_
+**The rules of the Jabberwocky language are detailed below:**
 
 The JABBERWOCK language supports a single data type: a JABBERWOCK-string. There are no numbers, booleans or objects. JABBERWOCK supports only one type of statement: an assignment. 
 There are no conditionals, loops, methods or method calls. As with all languages, an assignment statement assigns a value to a variable. The syntax of the language is described 
@@ -20,7 +20,7 @@ informally and rigorously below. In this definition, symbols given in red font a
 Note that there is at least one space (but possible many) between any two consecutive language elements. For example, -*?*#* is not a valid JABBERWOCK-expression because there 
 is no space between the operator [#] and the operands. However, -*?* # * is a valid JABBERWOCK-expression.
 
-The following ad-hoc rules describe the semantics of a JABBERWOCK-expression.
+**The following ad-hoc rules describe the semantics of a JABBERWOCK-expression.**
 
 1. There are only two kinds of values in this language: JABBERWOCK-strings and the literal undefined.
 2. JABBERWOCK-strings have a maximum length of 2022 symbols. If any literal or operation would produce a JABBERWOCK-string of length 2023 or greater, that operation or literal 
