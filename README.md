@@ -37,7 +37,7 @@ is no space between the operator [#] and the operands. However, -*?* # * is a va
 9. || denotes the JABBERWOCK-string interleaving operator. This operator interleaves the symbols of the two JABBERWOCK-string operators to produce a JABBERWOCK-string. If the 
    length of the two operands are unequal, the "unmatched" symbols of the longest JABBERWOCK-string are merely copied to the result. Consider the following examples for clarity: 
    -- || ** => -*-* and **-- || ?? => *?*?--
-10. # denotes the JABBERWOCK-string splice operator where the first operand is spliced into the center of the second operand. The idea is to split the second operand in two 
+10. '#' denotes the JABBERWOCK-string splice operator where the first operand is spliced into the center of the second operand. The idea is to split the second operand in two 
    equal or nearly-equal halves and insert the first operand into the center. If the second operands length is not even, the first segment is the shorter of the two halves. By 
    way of example, ** # ------ yields ---**--- and ** # ----- yields --**---.
 11. A JABBERWOCK program is executed one statement at a time in the order they occur in the program file. The output of a JABBERWORK program is the set of all variables that 
