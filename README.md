@@ -1,7 +1,6 @@
 # JabberwockyInterpreter
 A java implementation of a Jabberwocky language interpreter. This program accepts a command-line argument denoting the name of a .txt file containing a JABBERWOCK program.
-_Author: Dakota Kallas
-_
+_Author: Dakota Kallas_
 **The rules of the Jabberwocky language are detailed below:**
 
 The JABBERWOCK language supports a single data type: a JABBERWOCK-string. There are no numbers, booleans or objects. JABBERWOCK supports only one type of statement: an assignment. 
@@ -32,9 +31,9 @@ is no space between the operator [#] and the operands. However, -*?* # * is a va
    the value is undefined.
 7. The value of the expressions given in the syntactic definitions of 4 above are obtained by application of an operator to the values of the operands as defined below. The 
    binary operators are right-associative and all have the same precedence.
-8. & denotes the JABBERWOCK-string concatenation-without-duplicate-sequencing operator. This operator will a) peform the concatenation of the two operands and b) reduce any 
+8. '&' denotes the JABBERWOCK-string concatenation-without-duplicate-sequencing operator. This operator will a) peform the concatenation of the two operands and b) reduce any 
    sequence of multiple occurrences of a letter into a single occurrence. For example, ** & *?--- yields the JABBERWOCK-string *?-.
-9. || denotes the JABBERWOCK-string interleaving operator. This operator interleaves the symbols of the two JABBERWOCK-string operators to produce a JABBERWOCK-string. If the 
+9. '||' denotes the JABBERWOCK-string interleaving operator. This operator interleaves the symbols of the two JABBERWOCK-string operators to produce a JABBERWOCK-string. If the 
    length of the two operands are unequal, the "unmatched" symbols of the longest JABBERWOCK-string are merely copied to the result. Consider the following examples for clarity: 
    -- || ** => -*-* and **-- || ?? => *?*?--
 10. '#' denotes the JABBERWOCK-string splice operator where the first operand is spliced into the center of the second operand. The idea is to split the second operand in two 
