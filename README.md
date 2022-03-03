@@ -1,6 +1,8 @@
 # JabberwockyInterpreter
 A java implementation of a Jabberwocky language interpreter. This program accepts a command-line argument denoting the name of a .txt file containing a JABBERWOCK program.
+
 _Author: Dakota Kallas_
+
 **The rules of the Jabberwocky language are detailed below:**
 
 The JABBERWOCK language supports a single data type: a JABBERWOCK-string. There are no numbers, booleans or objects. JABBERWOCK supports only one type of statement: an assignment. 
